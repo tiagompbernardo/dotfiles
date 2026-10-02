@@ -11,7 +11,7 @@ set -euo pipefail
 repo="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 target="${HOME}"
 
-packages=(foot nvim tmux zsh)
+packages=(foot nvim opencode tmux zsh)
 
 if ! command -v stow >/dev/null 2>&1; then
   echo "Error: stow is not installed. Install it with your package manager." >&2
