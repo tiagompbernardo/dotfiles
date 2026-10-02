@@ -12,6 +12,7 @@ Stow package.
 |---|---|
 | `foot/` | `~/.config/foot/` |
 | `nvim/` | `~/.config/nvim/` |
+| `opencode/` | `~/.config/opencode/skills/` |
 | `tmux/` | `~/.config/tmux/` |
 | `zsh/` | `~/.zshrc` |
 
@@ -60,6 +61,12 @@ Most tools need only the symlink. Some need more.
 - Symlink only.
 - On the first start, `lazy.nvim` installs the plugins. This needs network
   access. The file `lazy-lock.json` pins the plugin versions.
+
+### opencode
+
+- Symlink only. This package tracks the skills under
+  `~/.config/opencode/skills/`.
+- Restart opencode to load a new skill.
 
 ### tmux
 
